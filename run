@@ -2,8 +2,28 @@
 <?php
 require __DIR__.'/vendor/autoload.php';
 
+if(!is_file('.env')){
+    file_put_contents(
+        filename: '.env',
+        data: file_get_contents('.env.example')
+    );
+}
+
+if(!is_file('config.php')){
+    file_put_contents(
+        filename: 'config.php',
+        data: file_get_contents('config-example.php')
+    );
+}
+
 $dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->load();
 
-Xtrasmal\BotOne\BotOne::run();
+
+$config = require('config.php');
+
+$robotArmy = Xtrasmal\BotOne\RotbotArmy::initialize($config);
+$robotArmy->run();
+
+//Xtrasmal\BotOne\BotOne::run();
 
