@@ -77,16 +77,16 @@
         },
         {
             "name": "discord-php/http",
-            "version": "v10.3.7",
+            "version": "v10.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "50b006971cd7548568e8b142621822bffbe643c8"
+                "reference": "0a9981dd5f8f96071f54d45e8d6fff2c6c295eb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/50b006971cd7548568e8b142621822bffbe643c8",
-                "reference": "50b006971cd7548568e8b142621822bffbe643c8",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/0a9981dd5f8f96071f54d45e8d6fff2c6c295eb6",
+                "reference": "0a9981dd5f8f96071f54d45e8d6fff2c6c295eb6",
                 "shasum": ""
             },
             "require": {
@@ -127,9 +127,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v10.3.7"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v10.3.8"
             },
-            "time": "2024-11-21T17:19:46+00:00"
+            "time": "2024-11-21T18:54:39+00:00"
         },
         {
             "name": "discord/interactions",
@@ -1306,33 +1306,33 @@
         },
         {
             "name": "react/child-process",
-            "version": "v0.6.5",
+            "version": "v0.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/child-process.git",
-                "reference": "e71eb1aa55f057c7a4a0d08d06b0b0a484bead43"
+                "reference": "1721e2b93d89b745664353b9cfc8f155ba8a6159"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/child-process/zipball/e71eb1aa55f057c7a4a0d08d06b0b0a484bead43",
-                "reference": "e71eb1aa55f057c7a4a0d08d06b0b0a484bead43",
+                "url": "https://api.github.com/repos/reactphp/child-process/zipball/1721e2b93d89b745664353b9cfc8f155ba8a6159",
+                "reference": "1721e2b93d89b745664353b9cfc8f155ba8a6159",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
                 "php": ">=5.3.0",
                 "react/event-loop": "^1.2",
-                "react/stream": "^1.2"
+                "react/stream": "^1.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35",
-                "react/socket": "^1.8",
+                "phpunit/phpunit": "^9.6 || ^5.7 || ^4.8.36",
+                "react/socket": "^1.16",
                 "sebastian/environment": "^5.0 || ^3.0 || ^2.0 || ^1.0"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "React\\ChildProcess\\": "src"
+                    "React\\ChildProcess\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1369,19 +1369,15 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/child-process/issues",
-                "source": "https://github.com/reactphp/child-process/tree/v0.6.5"
+                "source": "https://github.com/reactphp/child-process/tree/v0.6.6"
             },
             "funding": [
                 {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/clue",
-                    "type": "github"
+                    "url": "https://opencollective.com/reactphp",
+                    "type": "open_collective"
                 }
             ],
-            "time": "2022-09-16T13:41:56+00:00"
+            "time": "2025-01-01T16:37:48+00:00"
         },
         {
             "name": "react/datagram",
@@ -2632,16 +2628,16 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v10.1.4",
+            "version": "v10.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "f07ffa2d7673c0b76f8166b50a5fe099f50e8e83"
+                "reference": "23d1347025a7aa57e2a6918080bf2e1eaf1f0181"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/f07ffa2d7673c0b76f8166b50a5fe099f50e8e83",
-                "reference": "f07ffa2d7673c0b76f8166b50a5fe099f50e8e83",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/23d1347025a7aa57e2a6918080bf2e1eaf1f0181",
+                "reference": "23d1347025a7aa57e2a6918080bf2e1eaf1f0181",
                 "shasum": ""
             },
             "require": {
@@ -2703,10 +2699,24 @@
                 "chat": "https://discord.gg/dphp",
                 "docs": "https://discord-php.github.io/DiscordPHP/",
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/v10.1.4",
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v10.1.5",
                 "wiki": "https://github.com/discord-php/DiscordPHP/wiki"
             },
-            "time": "2024-12-24T22:02:06+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Log1x",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/valzargaming",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/DiscordPHP",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2025-01-09T07:53:01+00:00"
         },
         {
             "name": "trafficcophp/bytebuffer",
